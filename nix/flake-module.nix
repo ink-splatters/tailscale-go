@@ -12,7 +12,7 @@ in {
     in
       lists.head (match "go(.*)" versionStr);
   in {
-    packages.go_1_25 = pkgs.go_1_25.overrideAttrs (_: {
+    packages.go_1_26 = pkgs.go_1_26.overrideAttrs (_: {
       version = "${version}-tailscale";
       inherit src;
     });

@@ -13,7 +13,7 @@
       '';
 
       env = {
-        inherit (pkgs.go_1_25) GOROOT_BOOTSTRAP;
+        inherit (pkgs.go_1_26) GOROOT_BOOTSTRAP;
       };
     };
   };
