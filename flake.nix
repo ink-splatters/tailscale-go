@@ -54,7 +54,7 @@
             };
           };
         };
-        config.packages.default = config.packages.go_1_25;
+        config.packages.default = config.packages.go_1_26;
       };
 
       # exports
